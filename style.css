@@ -25,3 +25,21 @@
     font-family: "light-italic";
     color: #1f2937;
 }
+
+.quote-sec {
+    background: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background: #1f2937;
+    height: 50vh;
+}
+
+.footer {
+    background: #1f2937;
+    height: 15vh;
+}
