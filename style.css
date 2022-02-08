@@ -18,6 +18,15 @@
     margin-top: 30px;
     margin-left: 292px;
     flex-wrap: wrap;
+    border-style: solid;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    height: 455px;
 }
 
 .hero-small-text {
@@ -37,9 +46,30 @@
 }
 
 .info {
+    display: flex;
     font-size: 36px;
     font-family: extra-bold;
     color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-style: solid;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 1000px;
+    border-style: solid;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 .quote-text {
@@ -92,8 +122,12 @@ button {
     height: 15vh;
 }
 
-img {
-    margin-left: 200px;
-    height: 300px;
-    width: 600px;
+.placeholder {
+    display: flex;
+    margin-top: 200px;
+    height: 100px;
+    width: 400px;
+    border-style: solid;
+    margin-right: 300px;
+    margin-bottom: 170px;
 }
