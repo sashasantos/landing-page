@@ -18,14 +18,12 @@
     margin-top: 30px;
     margin-left: 292px;
     flex-wrap: wrap;
-    border-style: solid;
 }
 
 .intro-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-style: solid;
     height: 455px;
 }
 
@@ -50,7 +48,6 @@
     font-size: 36px;
     font-family: extra-bold;
     color: #1f2937;
-    border-style: solid;
     margin-top: 80px;
     margin-bottom: 35px;
     font-weight: 1000;
@@ -63,45 +60,67 @@
     justify-content: flex-start;
     align-items: center;
     height: 600px;
-    border-style: solid;
 }
 
-.images {
+
+.images {  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 280px;
     width: 1000px;
-    border-style: solid;
     margin-top: 20px;
     font-size: 12px;
 }
 
 .images img {
     display: flex;
-    height: 150px;
-    width: 100px;
-    border-style: solid;
+    height: 160px;
+    width: 165px;
     justify-content: space-between;
+    border-radius: 5px;
 }
 
 .images p {
     display: flex;
-    border-style: ridge;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    width: 180px;
+    font-size: 18px;
+    color: #1f2937
 }
 
 
 .quote-text {
+    display: flex;
     font-size: 36px;
     font-family: "light-italic";
     color: #1f2937;
+    height: 200px;
+    width: 1000px;
 }
 
 .quote-sec {
     background: #e5e7eb;
+    display: flex;
+    height: 490px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-sec p {
+    height: 40px;
+    width: 260px;
+    font-weight: 900;
+    margin-left: 760px;
+    font-size: 20px;
+}
+
+.call-sec {
+    height: 30vh;
 }
 
 ul {
@@ -149,7 +168,6 @@ button {
     margin-top: 200px;
     height: 280px;
     width: 600px;
-    border-style: solid;
     margin-right: 300px;
     margin-bottom: 170px;
 }
