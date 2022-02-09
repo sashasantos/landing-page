@@ -12,30 +12,36 @@
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 550px;
+    width: 480px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .intro-container {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     height: fit-content;
-    width: 73vw;
-    margin-left: 250px;
-    flex: 1;
+    width: 100%;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 .hero-small-text {
+    display: flex;
+    flex-direction: column;
     font-family: sans-serif;
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    justify-items: center;
+    align-content: space-between
 }
 
 .hero-small-text p {
-    height: 70px
+    height: 70px;
 }
+
 
 .nav-bar {
     display: flex;
@@ -195,6 +201,7 @@ a:link {
     text-decoration: none;
 }
 
+
 .button {
     font-family: sans-serif;
     background-color: #3882f6;
@@ -238,6 +245,7 @@ a:link {
     display: flex;
     height: 280px;
     width: 600px;
+    flex-shrink: 2;
 }
 
 img {
