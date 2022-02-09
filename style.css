@@ -220,6 +220,18 @@ a:link {
 .footer {
     background: #1f2937;
     height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-text {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    height: auto;
+    width: auto;
+    color: white;
 }
 
 .placeholder {
