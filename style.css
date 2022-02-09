@@ -13,18 +13,17 @@
     flex-direction: column;
     height: 400px;
     width: 500px;
-    margin-left: 160px;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 292px;
     flex-wrap: wrap;
 }
 
 .intro-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 455px;
+    justify-content: space-around;
+    height: fit-content;
+    width: 1400px;
+    margin-left: 250px;
 }
 
 .hero-small-text {
@@ -236,11 +235,8 @@ a:link {
 
 .placeholder {
     display: flex;
-    margin-top: 200px;
     height: 280px;
     width: 600px;
-    margin-right: 300px;
-    margin-bottom: 170px;
 }
 
 img {
